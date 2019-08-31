@@ -16,7 +16,7 @@ class SkinManager(object):
     _TextColor = pygame.Color(83,83,83) # #535353
     _FrontColor = pygame.Color(131,199,219) ## light blue,#83c7db
     _URLColor  = pygame.Color(51,166,255) ## blue more #33a6ff
-    _LineColor = pygame.Color(169,169,169)  # #a9a9a9
+    _LineColor = pygame.Color(47,8,88)  # #a9a9a9
     _TitleBgColor = pygame.Color(228,228,228)  # #e4e4e4
     _ActiveColor = pygame.Color(175,90,0) ## light brown  #af5a00
     """
