@@ -21,3 +21,5 @@ screenshots/*
 *.log
 .DS_Store
 sys.py/.*
+.idea
+.twm
