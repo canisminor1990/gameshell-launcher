@@ -50,6 +50,6 @@ class ListItem(object):
         self._Labels["Text"]._PosY = self._PosY + (self._Height - self._Labels["Text"]._Height)/2
         self._Labels["Text"].Draw()
 
-        pygame.draw.line(self._Parent._CanvasHWND,(47,8,88),(self._PosX,self._PosY+self._Height-1),(self._PosX+self._Width,self._PosY+self._Height-1),1)
+        pygame.draw.line(self._Parent._CanvasHWND,(224,220,206),(self._PosX,self._PosY+self._Height-1),(self._PosX+self._Width,self._PosY+self._Height-1),1)
     
 

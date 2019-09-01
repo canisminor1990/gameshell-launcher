@@ -166,7 +166,7 @@ class NetItem(Widget):
 
     
     def Draw(self):
-        #pygame.draw.line(self._Parent._CanvasHWND,(47,8,88),(self._PosX,self._PosY),(self._PosX+self._Width,self._PosY),1)
+        #pygame.draw.line(self._Parent._CanvasHWND,(224,220,206),(self._PosX,self._PosY),(self._PosX+self._Width,self._PosY),1)
         for i in self._Labels:
             self._Labels[i]._PosY = self._PosY + (self._Height - self._Labels[i]._Height)/2
             self._Labels[i].Draw()
